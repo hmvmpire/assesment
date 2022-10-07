@@ -1,0 +1,26 @@
+.pName {
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+}
+.pPrice {
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #747474;
+}
+.bradius {
+  border-radius: 30px;
+}
+.load-btn {
+  color: #5c6dde;
+}

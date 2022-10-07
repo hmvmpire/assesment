@@ -1,0 +1,13 @@
+.bradius{
+    border-radius: 30px;
+}
+.bradiusSp{
+    border-bottom-right-radius: 30px;
+    border-top-right-radius:30px
+}
+
+.wrText{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

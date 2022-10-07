@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "PoppinsLight300";
+  src: local("PoppinsLight300"), url(./PoppinsLight300.ttf) format("truetype");
+}
+@font-face {
+  font-family: "PoppinsRegular400";
+  src: local("PoppinsRegular400"),
+    url(./PoppinsRegular400.ttf) format("truetype");
+}
+@font-face {
+  font-family: "PoppinsBold700";
+  src: local("PoppinsBold700"),
+    url(./PoppinsBold700.ttf) format("truetype");
+}
+body {
+  margin: 0;
+  font-family: "PoppinsLight300";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.font-poppins-400 {
+  font-family: "PoppinsRegular400";
+}
+
+.font-poppins-700 {
+  font-family: "PoppinsBold700";
+}
+
+
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #73E0A9 0%, #5B68DF 100%);
+  border-radius: 50vh;
+  /* border: 3px solid #edf2f7; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #73E0A9 0%, #5B68DF 100%);
+}
