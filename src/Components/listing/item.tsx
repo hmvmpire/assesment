@@ -22,18 +22,18 @@ export const Item = (props: any) => {
       <div className="w-full flex flex-row   h-80 w-full">
         <div
           style={{ backgroundImage: `url(${props.data.image})` }}
-          className="bg-center bg-no-repeat bg-cover bradius shadow-2xl w-1/3 h-80"
+          className="bg-center bg-no-repeat bg-cover bradius shadow-2xl w-1/2 sm:1/2 md:w-1/3  lg:w-1/3 xl:w-1/3  h-80"
         ></div>
 
-        <div className="w-2/3 py-8">
+        <div className="w-1/2 sm:1/2 md:w-2/3  lg:w-2/3 xl:w-2/3 py-6">
         <div className="flex px-6 flex-col mt-4 gap-y-6 shadow-2xl bradiusSp mb-2 w-full py-6 items-start">
           <h6 className="pName text-lg font-poppins-700">
             {props.data.location_name}
           </h6>
-          <div className="flex flex-row justify-center items-center">
+          <div className="flex flex-row justify-start items-center w-full">
             <img src={iconAd} alt={iconAd} />
-            <p className="mx-2 text-md font-poppins-400">
-              £{props.data.address_line}
+            <p className="mx-2 text-md font-poppins-400 wrText">
+              {props.data.address_line}
             </p>
           </div>
           <div className="flex flex-row justify-start items-center w-full">
